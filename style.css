@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 5px 100px 5px 100px;
+   font-family: 'Mochiy Pop One', sans-serif; 
+font-family: 'Poppins', sans-serif; 
+background-color:beige;
+}
+.nav{
+    display: flex;
+  column-gap: 30px;  
+  row-gap: 100px;
+   justify-items: center; 
+   
+}
+li.nav{
+
+    /* background-color: yellow;  */
+    height: 100px;
+    width: 125px;
+}
+main{
+    display: grid;
+   grid-template-columns:1fr 1fr;
+   grid-template-rows: 500px 500px;
+
+   column-gap: 50px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 900;
+   
+}
+p{
+    font-size: larger;
+    font-weight: 500;
+}
+.right{
+display: grid;
+grid-template-rows: 1fr 1fr;
+row-gap: 10px;
+}
+img{
+    border-radius: 30px;
+}
+button{
+    height: 30px;
+    width: 110px;
+    font-size: medium;
+    background-color: green;
+    color: white;
+   border-radius: 6px;
+   border: green;
+   padding: 5px;
+   
+}
+button:hover{
+    background-color: rgb(15, 125, 214);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+   
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900; 
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+column-gap: 50px;
+
+} 
+.footer{
+    /* background-color: blue; */
+    font-weight: 500;
+}
+.footer-right{
+    display: flex;
+    column-gap: 100px;
+    
+}
