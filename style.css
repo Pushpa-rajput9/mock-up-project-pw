@@ -3,7 +3,7 @@ body{
     padding: 5px 100px 5px 100px;
    font-family: 'Mochiy Pop One', sans-serif; 
 font-family: 'Poppins', sans-serif; 
-background-color:beige;
+background-color:#f5f5dc;
 }
 .nav{
     display: flex;
@@ -14,7 +14,6 @@ background-color:beige;
 }
 li.nav{
 
-    /* background-color: yellow;  */
     height: 100px;
     width: 125px;
 }
@@ -46,19 +45,19 @@ button{
     height: 30px;
     width: 110px;
     font-size: medium;
-    background-color: green;
-    color: white;
+    background-color: #008000;
+    color: #ffffff;
    border-radius: 6px;
-   border: green;
+   border: #008000;
    padding: 5px;
    
 }
 button:hover{
-    background-color: rgb(15, 125, 214);
+    background-color: #0f7dd6;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-weight: 200;
    
 }
@@ -74,7 +73,7 @@ column-gap: 50px;
 
 } 
 .footer{
-    /* background-color: blue; */
+   
     font-weight: 500;
 }
 .footer-right{
